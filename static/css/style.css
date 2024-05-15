@@ -1,0 +1,148 @@
+.navbar .navbar-expand-lg .navbar-light .bg-light .border-bottom{
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  background-color: #4be99a;
+}
+
+.textUsuario{
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+
+/*menu lateral */
+#wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+min-height: 100vh;
+margin-left: -15rem;
+-webkit-transition: margin .25s ease-out;
+-moz-transition: margin .25s ease-out;
+-o-transition: margin .25s ease-out;
+transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+padding: 0.875rem 1.25rem;
+font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+width: 15rem;
+
+}
+
+#page-content-wrapper {
+min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+margin-left: 0;
+}
+
+@media (min-width: 768px) {
+#sidebar-wrapper {
+  margin-left: 0;
+}
+
+#page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: -15rem;
+}
+}
+/* Para la tabla*/
+body {
+  background: rgba(102, 185, 130, 0.884);
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  color: rgb(255, 240, 250);
+}
+
+.conter {
+  width: 407px;
+  min-height: auto;
+  max-height: 460px;
+  overflow: auto;
+  border: 1px solid #e6a3a34b;
+  padding: 10px;
+  scrollbar-width: thin;
+}
+
+.conter::-webkit-scrollbar {
+  width: 9px;
+  border-radius: 10px;
+}
+
+.conter::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.conter::-webkit-scrollbar-thumb:hover {
+  background-color: #555555;
+}
+
+.table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+.row {
+  display: table-row;
+  background-color: rgba(216, 243, 224, 0.89);
+}
+
+/* Estilos para las celdas de datos */
+.cell {
+  display: table-cell;
+  border-bottom: 1px solid #ccc; /* Línea horizontal */
+  padding: 8px;
+}
+
+/* Estilos para las celdas del encabezado */
+.header .cell {
+  font-weight: bold;
+  background-color: #f2f2f2; /* Color de fondo para el encabezado */
+}
+
+.dashboard {
+  /* display: table; */
+  width: 60%;
+  
+}
+
+.botones {
+  text-align: 30px;
+  margin-top: 10px; /* Ajusta el margen según tu diseño */
+}
+
+.btn-primary {
+  background-color: #0d6d0a;
+  
+}
+
+.btn-primary:hover {
+  background-color: #0d6d0a;
+  
+}
+
+.btn-primary:active {
+  background-color: #0d6d0a;
+  
+}
+.imagen {
+ margin-left: 10px;  
+}
+
+

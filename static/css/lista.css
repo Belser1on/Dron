@@ -1,0 +1,35 @@
+body {
+    background: #e7dff0;
+    background: -webkit-linear-gradient(to right, #dfcb17, #d4c5e4);
+    background: linear-gradient(to right, #0800ff, #be94ed);
+    color: #000;
+  }
+  
+  .title {
+    font-family: "Raleway", sans-serif;
+    color: rgb(255, 240, 250);
+  }
+  
+  .conter {
+    width: 407px;
+    min-height: auto;
+    max-height: 460px;
+    overflow: auto;
+    border: 1px solid #e6a3a34b;
+    padding: 10px;
+    scrollbar-width: thin;
+  }
+  
+  .conter::-webkit-scrollbar {
+    width: 9px;
+    border-radius: 10px;
+  }
+  
+  .conter::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+  }
+  
+  .conter::-webkit-scrollbar-thumb:hover {
+    background-color: #555555;
+  }
