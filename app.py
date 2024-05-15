@@ -8,7 +8,7 @@ import sqlite3
 from sqlite3 import Error
 from funciones import *
 
-    def crear_app():
+def crear_app():
     app = Flask(__name__) 
 
 
@@ -124,8 +124,4 @@ from funciones import *
 
 if __name__ == '__main__':
     app=crear_app()
-    app.run()
-
-
-if __name__ == '__main__':
     app.run()
